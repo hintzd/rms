@@ -1,1 +1,15 @@
-/Users/harrelfe/R/Hmisc/.Rbuildignore
+^.*\.Rproj$       # RStudio project files
+^\.Rproj\.user$   # RStudio user-specific files
+^\.git$           # Git version control directory
+^\.gitignore$     # Git ignore file
+^README\.Rmd$     # Source R Markdown if README.md is used
+^README\.md$      # (sometimes included, depending on needs)
+^LICENSE\.md$     # Markdown license (if separate from LICENSE)
+^cran-comments\.md$  # Comments for CRAN submission
+^docs$            # pkgdown site output
+^pkgdown$         # pkgdown config
+^tests/testthat/_snaps$  # snapshot tests (if you don’t want to include them)
+^\.vscode$        # VSCode settings directory
+^dev$             # folder for dev scripts
+^man-roxygen$     # non-standard folder for roxygen templates
+
